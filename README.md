@@ -1,6 +1,6 @@
 # Recommenders
 
-To check my project implementation click [here]
+To check my project implementation click [here](https://github.com/rxchoudhury/RBM/tree/master/My_RBM_Project)
 
 [![Documentation Status](https://readthedocs.org/projects/microsoft-recommenders/badge/?version=latest)](https://microsoft-recommenders.readthedocs.io/en/latest/?badge=latest)
 
