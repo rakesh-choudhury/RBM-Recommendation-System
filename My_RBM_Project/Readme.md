@@ -1,5 +1,7 @@
 # Snackfair-Recommendation-System
 
+Use [google colab](https://colab.research.google.com/notebooks/intro.ipynb) to run this code.
+
 [Video Presentation](https://youtu.be/le2oF0i1MBA)
 
 # Recommendation System Web Integration - Streamlit
