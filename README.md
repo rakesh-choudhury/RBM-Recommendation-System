@@ -2,6 +2,8 @@
 
 To check my project implementation click [here](https://github.com/rxchoudhury/RBM/tree/master/My_RBM_Project)
 
+[Best Practices on Recommendation Systems](https://microsoft-recommenders.readthedocs.io/en/latest/)
+
 [![Documentation Status](https://readthedocs.org/projects/microsoft-recommenders/badge/?version=latest)](https://microsoft-recommenders.readthedocs.io/en/latest/?badge=latest)
 
 This repository contains examples and best practices for building recommendation systems, provided as Jupyter notebooks. The examples detail our learnings on five key tasks: 
