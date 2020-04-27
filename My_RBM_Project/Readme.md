@@ -10,6 +10,28 @@ Use [google colab](https://colab.research.google.com/notebooks/intro.ipynb) to r
 
 Once the data is prepared and the RBM model is implemented, the final trained dataset is obtained. This dataset is then used to integrate the recommendation system to the web based application.
 
+## Steps to run ngrok cloud by generating a public URL.
+* Install the streamlit on Google Colab.</br>
+``!pip install streamlit``
+* Upload the [Integration.py](https://github.com/rxchoudhury/RBM-Recommendation-System/blob/master/My_RBM_Project/Integration.py) file.
+
+* Run the following code to Install ngrok.
+```
+### Install ngrok
+!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+!unzip ngrok-stable-linux-amd64.zip
+```
+* Run the following code to get the public url to run the application(Do not click or use the URL until the last step of code is run):
+```
+get_ipython().system_raw('./ngrok http 8501 &')
+
+! curl -s http://localhost:4040/api/tunnels | python3 -c \
+    "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
+```
+* Finally run the streamlit app using the following code:
+```
+!streamlit run Integration.py
+```
 ## Streamlit User Interface
 
 ![Visualisation Demo](streamlit_dash.gif)
