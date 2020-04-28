@@ -32,6 +32,7 @@ get_ipython().system_raw('./ngrok http 8501 &')
 ```
 !streamlit run Integration.py
 ```
+* Now click on the ngrok generated URL. Or copy paste in any browser to see the visualisation.
 ## Streamlit User Interface
 
 ![Visualisation Demo](streamlit_dash.gif)
